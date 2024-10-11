@@ -25,12 +25,11 @@ if __name__ == '__main__':
         sleep(300)
         time += 5
 
-        if time % 10 == 0:
+        if time % 10 == 0 and time % 30 != 0:
             notify_and_say('Rest your eyes. ', time)
 
         if time % 25 == 0:
             notify_and_say('Drink Water. ', time)
 
         if time % 60 == 0:
-            notify_and_say(
-                'Do some physical activity and maintain posture. ', time)
+            notify_and_say('Do some physical activity and maintain posture. ', time)
