@@ -22,8 +22,8 @@ if __name__ == '__main__':
     time: int = 0
 
     while True:
-        sleep(300)
-        time += 5
+        sleep(600)
+        time += 10
 
         if time % 10 == 0 and time % 30 != 0:
             notify_and_say('Rest your eyes. ', time)
