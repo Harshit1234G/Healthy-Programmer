@@ -6,7 +6,7 @@ This Python script serves as a simple yet effective reminder to rest eyes, drink
 - **win10toast:** To display visual notifications on the desktop (Windows-specific).
 
 ## Features:
-- **Regular reminders:** Alerts you to rest eyes every 10 minutes, drink water every 25 minutes and to do a physical activity or maintain posture every 60 minutes.
+- **Regular reminders:** Alerts you to rest eyes every 10 minutes, drink water every 30 minutes and to do a physical activity or maintain posture every 60 minutes.
 - **Audio cues:** Repeats the reminder text multiple times through text-to-speech functionality.
 - **Visual prompts:** Displays desktop notifications to grab your attention.
 - **Time logging:** Records timestamps of triggered reminders for potential reference.
