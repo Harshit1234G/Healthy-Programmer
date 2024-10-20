@@ -28,8 +28,8 @@ if __name__ == '__main__':
         if time % 10 == 0 and time % 30 != 0:
             notify_and_say('Rest your eyes. ', time)
 
-        if time % 30 == 0 and time % 60 != 0:
+        elif time % 30 == 0 and time % 60 != 0:
             notify_and_say('Drink Water. ', time)
 
-        if time % 60 == 0:
+        elif time % 60 == 0:
             notify_and_say('Do some physical activity and maintain posture. ', time)
